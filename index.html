@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tableau de bord santé personnel</title>
+<style>
+  :root { color-scheme: light dark; --bg: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --link: #2a78d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --link: #6da7ec; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 26px; margin: 0 0 16px; }
+  p, li { color: var(--ink-2); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tableau de bord santé personnel</h1>
+  <p>Petit outil personnel, non commercial, qui tourne sur l'ordinateur de son propriétaire.</p>
+  <ul>
+    <li>Il lit, en lecture seule, les données d'activité, de sommeil et de santé du propriétaire via la Google Health API.</li>
+    <li>Il les enregistre sur son ordinateur et les affiche dans un tableau de bord local.</li>
+    <li>Il n'est pas destiné au public et n'est utilisé que par son propriétaire.</li>
+  </ul>
+  <p><a href="privacy.html">Règles de confidentialité</a> · <a href="terms.html">Conditions d'utilisation</a></p>
+</main>
+</body>
+</html>

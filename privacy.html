@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité</title>
+<style>
+  :root { color-scheme: light dark; --bg: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --link: #2a78d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --link: #6da7ec; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p, li { color: var(--ink-2); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p>Dernière mise à jour : 24 novembre 2026</p>
+
+  <h2>Qui utilise cette application</h2>
+  <p>Cette application est un outil personnel. Son seul utilisateur est son propriétaire, qui l'utilise pour consulter ses propres données de santé.</p>
+
+  <h2>Données consultées</h2>
+  <p>Avec l'autorisation explicite de l'utilisateur (OAuth Google), l'application lit en lecture seule via la Google Health API :</p>
+  <ul>
+    <li>les données d'activité : pas, distance, calories, minutes actives, exercices ;</li>
+    <li>les mesures de santé : fréquence cardiaque, variabilité cardiaque, saturation en oxygène, fréquence respiratoire ;</li>
+    <li>les données de sommeil ;</li>
+    <li>les informations de profil et de réglages nécessaires à l'affichage.</li>
+  </ul>
+  <p>L'application n'écrit, ne modifie et ne supprime aucune donnée dans le compte Google de l'utilisateur.</p>
+
+  <h2>Stockage et utilisation</h2>
+  <ul>
+    <li>Les données sont enregistrées uniquement sur l'ordinateur personnel de l'utilisateur, dans une base locale.</li>
+    <li>Elles servent uniquement à afficher un tableau de bord personnel.</li>
+    <li>Aucune donnée n'est envoyée à un serveur tiers, vendue, partagée, ni utilisée pour de la publicité ou pour entraîner des modèles d'IA.</li>
+  </ul>
+  <p>L'utilisation des données reçues des API Google respecte les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée (« Limited Use »).</p>
+
+  <h2>Suppression et révocation</h2>
+  <p>L'utilisateur peut retirer l'accès à tout moment depuis <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Pour supprimer les données locales, il suffit d'effacer les fichiers de l'application sur l'ordinateur.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question, ouvrez une demande (« issue ») sur le dépôt GitHub de ce site.</p>
+
+  <p><a href="index.html">← Accueil</a></p>
+</main>
+</body>
+</html>
